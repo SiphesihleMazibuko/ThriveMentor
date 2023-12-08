@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background: #0f2d49;
+  padding-left: 11%;
+  padding-right: 8%;
+  position: relative;
+  background-image: url(/Images/Happy\ family.jpg);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: 92% 100%;
+}
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #bababa;
+}
+.top-nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.top-nav button {
+  background: #ccbf90;
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.top-nav button a {
+  text-decoration: none;
+  color: white;
+}
+.side-nav {
+  position: fixed;
+  background: #0f2d49;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.side-nav .logo {
+  width: 60px;
+  cursor: pointer;
+}
+.side-nav h1 {
+  text-decoration: none;
+  color: white;
+  transform: rotate(-90deg) translateX(50%);
+  width: max-content;
+}
+.text-box {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 18px;
+  color: white;
+}
+.text-box h1 {
+  font-weight: 500;
+  font-size: 86px;
+  max-width: 550px;
+  line-height: 95px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.btn{
+  height: 35px;
+  background: rgba(76, 68, 182, 0.808);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all .3s;
+  margin-top:10px ;
+  padding: 0px 10px;
+}
